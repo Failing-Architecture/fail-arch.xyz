@@ -13,13 +13,7 @@ header {
 }
 header h1 {
     margin: 0;
-    font-size: 2.5em;
-}
-.github-fork {
-    position: fixed;
-    top: 10px;
-    right: 10px;
-    z-index: 1000;
+    font-size: 2em;
 }
 .github-fork a {
     display: flex;
@@ -32,6 +26,22 @@ header h1 {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     font-size: 0.9em;
 }
+.github-fork {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    background-color: #24292e;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 0.9em;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
 .github-fork img {
     margin-right: 8px;
     height: 20px;
@@ -91,11 +101,11 @@ small {
 }
 
 ul {
-    list-style-type: decimal; /* Используем цифры для нумерации */
-    padding-left: 20px; /* Отступ для нумерации */
+    list-style-type: decimal; 
+    padding-left: 20px; 
 }
 
 ul li {
-    margin-bottom: 20px; /* Отступ между пунктами */
-    line-height: 1.6; /* Увеличиваем межстрочный интервал */
+    margin-bottom: 20px; 
+    line-height: 1.6; 
 }

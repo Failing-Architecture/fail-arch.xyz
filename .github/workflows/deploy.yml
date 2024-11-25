@@ -19,5 +19,5 @@ jobs:
           server: ${{ secrets.PLESK_HOST }}
           username: ${{ secrets.PLESK_USER }}
           password: ${{ secrets.PLESK_PASSWORD }}
-          local-dir: './src/'
+          local-dir: './src'
           server-dir: '${{ secrets.DEPLOY_PATH }}'

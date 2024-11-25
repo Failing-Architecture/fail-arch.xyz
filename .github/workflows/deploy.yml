@@ -21,3 +21,4 @@ jobs:
           password: ${{ secrets.PLESK_PASSWORD }}
           local-dir: './src/'
           server-dir: '${{ secrets.DEPLOY_PATH }}'
+          timeouts: 120s
